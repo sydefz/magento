@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout version="0.0.1">
+	<modulename_index_index>
+		<reference name="root">
+			<action method="setTemplate">
+				<template>BlackstoneMedia/shared/simple.phtml</template>
+			</action>
+		</reference>
+		<reference name="content">
+			<block type="core/template" name="modulename_index_index" template="BlackstoneMedia/modulename/index/index.phtml" />
+		</reference>
+	</modulename_index_index>
+
+	<modulename_index_submit>
+		<reference name="root">
+			<action method="setTemplate">
+				<template>BlackstoneMedia/shared/simple.phtml</template>
+			</action>
+		</reference>
+		<reference name="content">
+			<block type="core/template" name="modulename_index_submit" template="BlackstoneMedia/modulename/index/submit.phtml" />
+		</reference>
+	</modulename_index_submit>
+</layout>

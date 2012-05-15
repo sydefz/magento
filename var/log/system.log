@@ -1,0 +1,24 @@
+2012-05-15T00:01:25+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 5: parser error : Opening and ending tag mismatch: active line 5 and true  in /Users/shane/Sites/magento/lib/Varien/Simplexml/Config.php on line 510
+2012-05-15T00:01:25+00:00 ERR (3): Warning: simplexml_load_string(): 			<active>true</true>  in /Users/shane/Sites/magento/lib/Varien/Simplexml/Config.php on line 510
+2012-05-15T00:01:25+00:00 ERR (3): Warning: simplexml_load_string(): 			                   ^  in /Users/shane/Sites/magento/lib/Varien/Simplexml/Config.php on line 510
+2012-05-15T00:01:29+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 5: parser error : Opening and ending tag mismatch: active line 5 and true  in /Users/shane/Sites/magento/lib/Varien/Simplexml/Config.php on line 510
+2012-05-15T00:01:29+00:00 ERR (3): Warning: simplexml_load_string(): 			<active>true</true>  in /Users/shane/Sites/magento/lib/Varien/Simplexml/Config.php on line 510
+2012-05-15T00:01:29+00:00 ERR (3): Warning: simplexml_load_string(): 			                   ^  in /Users/shane/Sites/magento/lib/Varien/Simplexml/Config.php on line 510
+2012-05-15T00:01:30+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 5: parser error : Opening and ending tag mismatch: active line 5 and true  in /Users/shane/Sites/magento/lib/Varien/Simplexml/Config.php on line 510
+2012-05-15T00:01:30+00:00 ERR (3): Warning: simplexml_load_string(): 			<active>true</true>  in /Users/shane/Sites/magento/lib/Varien/Simplexml/Config.php on line 510
+2012-05-15T00:01:30+00:00 ERR (3): Warning: simplexml_load_string(): 			                   ^  in /Users/shane/Sites/magento/lib/Varien/Simplexml/Config.php on line 510
+2012-05-15T00:01:35+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 5: parser error : Opening and ending tag mismatch: active line 5 and true  in /Users/shane/Sites/magento/lib/Varien/Simplexml/Config.php on line 510
+2012-05-15T00:01:35+00:00 ERR (3): Warning: simplexml_load_string(): 			<active>true</true>  in /Users/shane/Sites/magento/lib/Varien/Simplexml/Config.php on line 510
+2012-05-15T00:01:35+00:00 ERR (3): Warning: simplexml_load_string(): 			                   ^  in /Users/shane/Sites/magento/lib/Varien/Simplexml/Config.php on line 510
+2012-05-15T00:01:35+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 5: parser error : Opening and ending tag mismatch: active line 5 and true  in /Users/shane/Sites/magento/lib/Varien/Simplexml/Config.php on line 510
+2012-05-15T00:01:35+00:00 ERR (3): Warning: simplexml_load_string(): 			<active>true</true>  in /Users/shane/Sites/magento/lib/Varien/Simplexml/Config.php on line 510
+2012-05-15T00:01:35+00:00 ERR (3): Warning: simplexml_load_string(): 			                   ^  in /Users/shane/Sites/magento/lib/Varien/Simplexml/Config.php on line 510
+2012-05-15T00:01:50+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 5: parser error : Opening and ending tag mismatch: active line 5 and true  in /Users/shane/Sites/magento/lib/Varien/Simplexml/Config.php on line 510
+2012-05-15T00:01:50+00:00 ERR (3): Warning: simplexml_load_string(): 			<active>true</true>  in /Users/shane/Sites/magento/lib/Varien/Simplexml/Config.php on line 510
+2012-05-15T00:01:50+00:00 ERR (3): Warning: simplexml_load_string(): 			                   ^  in /Users/shane/Sites/magento/lib/Varien/Simplexml/Config.php on line 510
+2012-05-15T00:01:56+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 5: parser error : Opening and ending tag mismatch: active line 5 and true  in /Users/shane/Sites/magento/lib/Varien/Simplexml/Config.php on line 510
+2012-05-15T00:01:56+00:00 ERR (3): Warning: simplexml_load_string(): 			<active>true</true>  in /Users/shane/Sites/magento/lib/Varien/Simplexml/Config.php on line 510
+2012-05-15T00:01:56+00:00 ERR (3): Warning: simplexml_load_string(): 			                   ^  in /Users/shane/Sites/magento/lib/Varien/Simplexml/Config.php on line 510
+2012-05-15T00:04:15+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 5: parser error : Opening and ending tag mismatch: active line 5 and true  in /Users/shane/Sites/magento/lib/Varien/Simplexml/Config.php on line 510
+2012-05-15T00:04:15+00:00 ERR (3): Warning: simplexml_load_string(): 			<active>true</true>  in /Users/shane/Sites/magento/lib/Varien/Simplexml/Config.php on line 510
+2012-05-15T00:04:15+00:00 ERR (3): Warning: simplexml_load_string(): 			                   ^  in /Users/shane/Sites/magento/lib/Varien/Simplexml/Config.php on line 510

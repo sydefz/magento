@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<modules>
+		<Litle_CreditCard>
+			<version>0.1.0</version>
+		</Litle_CreditCard>
+	</modules>
+	<global>
+		<models>
+			<creditcard>
+				<class>Litle_CreditCard_Model</class>
+			</creditcard>
+		</models>
+		<resources>
+			<creditcard_setup>
+				<setup>
+					<module>Litle_CreditCard</module>
+				</setup>
+				<connection>
+					<use>core_setup</use>
+				</connection>
+			</creditcard_setup>
+			<creditcard_write>
+				<connection>
+					<use>core_write</use>
+				</connection>
+			</creditcard_write>
+			<creditcard_read>
+				<connection>
+					<use>core_read</use>
+				</connection>
+			</creditcard_read>
+		</resources>
+	</global>
+	<default>
+        <payment>
+            <creditcard>
+                <active>1</active>
+                <timeout>65</timeout>
+                <url>https://www.testlitle.com/sandbox/communicator/online</url>
+                <model>creditcard/paymentLogic</model>
+                <order_status>pending</order_status>
+                <title>Credit Card (Litle Payment)</title>
+                <cctypes>AE,VI,MC,DI</cctypes>
+                <payment_action>authorize</payment_action>
+                <allowspecific>0</allowspecific>
+            </creditcard>
+        </payment>
+    </default>
+</config>

@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+	<modules>
+		<BlackstoneMedia_ModuleName>
+			<active>true</active>
+			<codePool>local</codePool>
+		</BlackstoneMedia_ModuleName>
+	</modules>
+</config>

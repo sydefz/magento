@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<modules>
+		<Baobaz_Arithmetic>
+			<active>true</active>
+			<codePool>local</codePool>
+		</Baobaz_Arithmetic>
+	</modules>
+</config>

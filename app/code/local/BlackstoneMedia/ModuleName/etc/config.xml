@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<config>
+	<frontend>
+		<layout>
+			<updates>
+				<ModuleName>
+					<file>BlackstoneMedia/ModuleName.xml</file>
+				</ModuleName>
+			</updates>
+		</layout>
+
+		<routers>
+			<ModuleName>
+				<use>standard</use>
+				<args>
+					<module>BlackstoneMedia_ModuleName</module>
+					<frontName>modulename</frontName>
+				</args>
+			</ModuleName>
+		</routers>
+	</frontend>
+	<modules>
+		<BlackstoneMedia_ModuleName>
+			<version>0.0.1</version>
+		</BlackstoneMedia_ModuleName>
+	</modules>
+</config>

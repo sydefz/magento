@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package>
+    <name>Litle_Payments</name>
+    <version>8.10.0</version>
+    <stability>stable</stability>
+    <license>MIT</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>This extension allows you to accept payments through Litle.</summary>
+    <description>Installation of this extension will allow you to easily accept payments through Litle. Once installed, you can choose to accept credit cards as well as eChecks to be processed by Litle.&#xD;
+&#xD;
+You will need to contact Litle to setup a merchant ID prior to processing your transaction. You can test your system against our sandbox without the need to contact Litle first.&#xD;
+&#xD;
+To test with sandbox, you may enter any user name and password, and select 'Sandbox' from the drop down menu in Payment Method configuration.&#xD;
+&#xD;
+Why Litle?&#xD;
+&#xD;
+We deliver the most efficient and effective core processing available to digital and direct merchants. Relevant, value-added solutions help you drive more lasting and profitable customer relationships. We&#x2019;ll also show you how payments intelligence can power your business and your relationships to greater success. We support you with the best customer experience in the business.&#xD;
+</description>
+    <notes>This extension implements Litle XML version 8.10</notes>
+    <authors><author><name>Litle </name><user>Litle</user><email>sdksupport@litle.com</email></author></authors>
+    <date>2012-03-28</date>
+    <time>15:54:50</time>
+    <contents><target name="magelocal"><dir name="Litle"><dir><dir name="CreditCard"><dir name="Model"><file name="PaymentLogic.php" hash="0b72c1b297c6c84635d0e9018f841c80"/><file name="Url.php" hash="ce0ca23963d9eb05552528eb440d19fe"/><file name="Validatehttp.php" hash="79dac70cf02fc3e005c9bb8ef0f3e0e0"/></dir><dir name="etc"><file name="config.xml" hash="be5172f7d2ec1a5d16c64f313487be82"/><file name="system.xml" hash="bd072a42ff569bbb7bd5530c0366ee60"/></dir></dir><dir name="LEcheck"><dir name="Block"><dir name="Form"><file name="LEcheck.php" hash="ba7cc807aa5e227bb936a196985476a0"/></dir></dir><dir name="Helper"><file name="Data.php" hash="2c2664ab694e0ba70e45157061a01436"/></dir><dir name="Model"><file name="Accounttypes.php" hash="6628bf9982d0d35341975d0bb83be5e1"/><file name="Config.php" hash="fe64d24b39251551b71e37937792b418"/><file name="PaymentLogic.php" hash="90449604d306518c671caa75ef0d880e"/><file name="Transactiontypes.php" hash="1aa3e3e77c044e77154f9c24afcfc436"/><file name="Url.php" hash="9e3d8ba06bcb9045abc82f20f18d5ef3"/><file name="Validatehttp.php" hash="6a8d4d6f043976ad272c87a885d937f4"/></dir><dir name="etc"><file name="config.xml" hash="0150e3b72ffd8b8fd08891390d02178e"/><file name="system.xml" hash="1721d5468396eaae10987be8423e0ff8"/></dir></dir><dir name="LitleSDK"><file name="Checker.php" hash="e38d02c1fc3d54faa5d2ba0302bff5ec"/><file name="Communication.php" hash="f78ab9b5497554ae47181053f5f20ac8"/><file name="LitleOnline.php" hash="f2561f12f4e47d6c1d1ae60c835e9f4f"/><file name="LitleOnlineRequest.php" hash="609062240175f4827399b81543b11ec8"/><file name="LitleXmlMapper.php" hash="17c64c7f34e5c84ab3461b92268ede46"/><file name="Obj2xml.php" hash="63f36945e7bd1dc0ae2392ea3ad7560d"/><file name="Setup.php" hash="d726bbc909f3f4754c3e73b8915f8706"/><file name="XmlFields.php" hash="d84c23fbddcb4829cddf77470ecd1191"/><file name="XmlParser.php" hash="9fb83575223778fad8eaee1bef16ab36"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="default"><dir name="default"><dir name="template"><dir name="payment"><dir name="form"><file name="litleecheck.phtml" hash="a92047f43e72f60fea75dd536bba0552"/></dir></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Litle_All.xml" hash="57f8967136923914e7a0a04f0432b821"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

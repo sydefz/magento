@@ -1,0 +1,1 @@
+core|a:2:{s:23:"_session_validator_data";a:4:{s:11:"remote_addr";s:11:"192.168.1.1";s:8:"http_via";s:0:"";s:20:"http_x_forwarded_for";s:0:"";s:15:"http_user_agent";s:120:"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_3) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19";}s:13:"session_hosts";a:1:{s:11:"192.168.1.1";b:1;}}

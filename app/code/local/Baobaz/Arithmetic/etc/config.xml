@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<modules>
+		<Baobaz_Arithmetic>
+			<version>0.0.1</version>
+		</Baobaz_Arithmetic>
+	</modules>
+	
+	 <frontend>
+        <routers>
+            <arithmetic>
+                <use>standard</use>
+                <args>
+                    <module>Baobaz_Arithmetic</module>
+                    <frontName>arithmetic</frontName>
+                </args>
+            </arithmetic>
+        </routers>
+        
+        <layout>
+    		<updates>
+	    		<arithmetic>
+	    			<file>arithmetic.xml</file>
+	    		</arithmetic>
+	    	</updates>
+    	</layout>
+	</frontend>
+</config>
